@@ -159,5 +159,6 @@ if __name__ == "__main__":
     main_window = MainWin(settings, settings_window)
     main_window.show()
     main_window.new_srcs_added()
+    main_window.setWindowIcon(QIcon(QPixmap("icon.png")))
     
     sys.exit(app.exec())
