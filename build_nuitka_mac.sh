@@ -11,6 +11,6 @@ python3 -m nuitka \
 --macos-app-icon="./icon.png" \
 --macos-app-name="Rapidoi" \
 --output-file="Rapidoi.app" \
-./apexsymm_gui/main.py
+./main.py
 echo "Done! Press ENTER to continue..."
 read
