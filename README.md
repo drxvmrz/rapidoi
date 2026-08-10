@@ -52,9 +52,39 @@ Then install it as usual on your operating system.
 5. *(Optional)* Go to `Settings` -> `Download path` and enter your default browser path to save downloads;
 6. **Click "Download"** on the publisher's page - the PDF saves to your folder for downloaded files;
 7. RAPIDOI **automatically renames** the file to `<DOI NUMBER>.pdf` - no manual renaming needed;
-8. Repeat for the next DOI;
-9. PROFIT :)
+8. Repeat for the next DOI.
 
 # 🧑‍💻 Build RAPIDOI by yourself
 
-*Build instructions coming soon.*
+1. Download this repository;
+2. Open the downloaded folder in the terminal or command prompt
+   
+   ```
+   cd <PATH TO DOWNLOADED FOLDER>
+   ```
+3. Create a python virtual environment and activate it
+   1. Windows
+   ```
+      python -m venv .venv ^
+      .\.venv\Scripts\activate.bat
+   ```
+   2. Unix-like
+   ```
+      python -m venv venv \ 
+      source venv/bin/activate
+   ```
+4. Install needed packages if missed
+   ```
+      pip install PySide6 nuitka platformdirs imageio
+   ```
+5. Run the Nuitka building
+   1. Windows
+   ```
+      .\build_nuitka_win32.bat
+   ```
+   2. Unix-like
+   ```
+      chmod +x build_nuitka_mac.sh \
+     ./build_nuitka_mac
+   ```
+6. Profit :)
