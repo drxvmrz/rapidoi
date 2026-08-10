@@ -47,9 +47,9 @@ Then install it as usual on your operating system.
 
 1. Prepare a `.txt` file with a list of DOIs (see [example](https://github.com/drxvmrz/rapidoi/tree/main/_example_dois));
 2. Open the file in RAPIDOI via the menu bar;
-3. *(Optional)* Go to `Settings` -> `Sources` and add your preferred DOI resolver;
-4. **Click the DOI** - the article page opens in your browser instantly;
-5. *(Optional)* Go to `Settings` -> `Download path` and enter your browser's downloads path;
+3.  **(Important)** Go to `Settings` -> `Download path` and enter your default browser's downloads path;
+4. *(Optional)* Go to `Settings` -> `Sources` and add your preferred DOI resolver;
+5. **Click the DOI** - the article page opens in your browser instantly;
 6. **Click "Download"** on the publisher's page - the PDF saves to your folder for downloaded files;
 7. RAPIDOI **automatically renames** the file to `<DOI NUMBER>.pdf` - no manual renaming needed;
 8. Repeat for the next DOI.
